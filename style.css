@@ -1,0 +1,94 @@
+/* ==========================================================================
+    Reset
+   ========================================================================== */
+
+a {
+    text-decoration: none;
+}
+
+:focus{
+    outline:0; /*removes the dotted border*/
+}
+ 
+/* ==========================================================================
+    Global 
+   ========================================================================== */
+
+h1.heading {
+    position: relative;
+    margin-top: 240px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 130%;
+}
+
+p.sub-heading {
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 140%;
+}
+
+/* ==========================================================================
+    Header
+   ========================================================================== */
+
+nav {
+    position: fixed;
+    top: 20px;
+    right: 40px;
+}
+
+nav.menu {
+    float: right;
+}
+
+nav.menu a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 10px;
+    background-color: white;
+    border: white;
+    color: black;
+    padding: 14px 26px;
+    text-align: center;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px
+}
+
+nav.menu a:hover {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 5px
+}
+
+nav.menu a.active {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 5px
+}
+
+#logo {
+    position: fixed;
+    top: 20px;
+    left: 40px;
+    height: 25px;
+    width: 25px;
+}
